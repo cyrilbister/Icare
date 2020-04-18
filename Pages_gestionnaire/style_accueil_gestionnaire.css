@@ -120,8 +120,61 @@ tr a
     margin: 0px;
 }
 
-/*footer*/
+/*Header & Footer*/
+/*MENU*/
+/* header nav.page-accueil ul{
+    
+    
+    cursor:auto;
+    mix-blend-mode: multiply;
+    
+    font-size: 20px;
+    /* margin-left: 0%;
+    margin-right: 9%; */
+    /* margin-bottom: -13%;
+    margin-top: -1%; */
+    /* color : #333;
+    padding: 0;
+    
+    /* position: relative; */
+    
+    /* overflow: hidden;
+    z-index:2;
+	list-style-type: none;
+	/* border: 1px solid black; */
+	 
+    
 
+/* }  */ 
+
+/* HEADER */
+/* header nav.page-accueil ul li  {
+    
+    height: 20px; /*MAXI IMPORTANT à changer pour que le header soit ok*/
+    /* float: left;
+    margin: 2.5%;
+    margin-right: -2.5%;
+    display: inline-block;
+
+} */ 
+
+/* header nav.page-accueil ul li.rubriques a  {
+    
+    color : white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    font-family: "Roboto";
+        
+}
+
+header nav.page-accueil ul li.rubriques:hover a{
+    color : grey;
+    background-color: #483D8B;
+    transition: 0.5s;
+}  */
 
 
 /* FOOTER */
@@ -280,7 +333,7 @@ footer{
 
 	footer.footer-distributed{
 		font: bold 14px sans-serif;
-		(max-width: 880px);
+		max-width: 880px;
 	}
  
 	footer.footer-distributed .footer-left,
