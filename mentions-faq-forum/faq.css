@@ -1,310 +1,361 @@
-*{
-    margin : 0%;
-    padding : 0;
+@import url('https://fonts.googleapis.com/css?family=Oswald:500,600,700|Roboto');
+
+body {
+	margin: 0;
+	background-color: grey;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
 }
 
-#login{
-    position : fixed;
-    
-}
-
-section{
-
-    color: grey;
-}
-
-html{
-    height : 10%;
-    background-color : white;
-
-}
-
-
-hr{
-
-    margin-bottom:5%;
-    margin-top:-3.5%;
-
-}
-
-#hr1{
-    margin-top:-7.5%;
-}
-
-
-
-#container{
-    float: center;
-    position: absolute;;
-    top: 20%;
-    left: 35%;
+/* FAQ début */
+h1{
+ 
+  font-size: 32px;
   
+  font-family:"Roboto";
+  color: #000;
+  padding:1%;
+  
+  font-weight:lighter;
+  -moz-box-shadow: 2px 2px 6px #888;  -webkit-box-shadow: 2px 2px 6px #888;  
+  
+  text-align:center;
+  display:block;
+ 
 }
-
-.Usertxt{
-    position : relative;
-    color : black;
-    font-size : 20px;
-    font-family : "Roboto";
-
-}
-
-.Username{
-    height : 100px;
-}
-
-.Passtxt{
-    position : relative;
-    color : black;
-    font-size : 20px;
-    font-family : "Roboto";
-    text-align: 
-}
-
-.Password{
-    height : 100px;
-    border-radius : 10px;
-}
-
-.username{
-    height : 50px;
-    width : 500px;
-    font-family : "Roboto";
-    font-size : 100%;
-    border : 1px;
-    border-radius : 10px;
-}
-
-
-.password{
-    height : 50px;
-    width : 500px;
-    font-family : "Roboto";
-    font-size : 100%;
-    border : 1px;
-    border-radius : 10px;
-    text-align: 10%
-}
-
-
-input[type=submit] {
-    background-color:#9370DB ;
+h2 {
+	text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
+    background-color: #9370DB ; 
+    padding: 3%;
+    margin : 0;
     cursor: pointer;
-    width: 100%;
+    position: relative ;
+    -moz-box-shadow: 2px 2px 6px #888;  -webkit-box-shadow: 2px 2px 6px #888;  
 }
-input[type=submit]:hover {
-    background-color: white;
+.faq {
+	text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px ;
     color: black;
+    display: block;
+    padding: 7%;
+    margin :0;
+    background-color:	#C0C0C0;
+    -moz-box-shadow: 2px 2px 6px #888;  -webkit-box-shadow: 2px 2px 6px #888;  
+}
+.container1 {
+   
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 70px 0 20px;
+    width: 100%;
+    margin-bottom: 30%; /* Pour voir tout avec le footer en dessus*/
+    margin-right: 55%;
+    margin-top: 0;
+
+}
+
+/*FAQ Fin */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body {
+	margin: 0%;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	background: white;
+	font: bold 15% sans-serif;
+	
+	
+}
+
+h1{
+	font: normal 30px "Roboto", cursive;
+	z-index: 2;
+	margin: 2%;
+	margin-left: 3%;
+	margin-top: 0%;
+}
+p{
+	font: normal 15px "Roboto", cursive;
+	z-index: 2;
+	margin: 2%;
+	margin-left: 3%;
+	margin-top: 0%;
+}
+
+/*MENU*/
+header nav.page-accueil ul{
+	
+	
+	cursor:auto;
+	mix-blend-mode: multiply;
+	
+	font-size: 20px;
+  	margin-left: 0%;
+  	margin-right: 9%;
+  	margin-bottom: -18%;
+  	margin-top: -1%;
+    color : #333;
+    padding: 0;
     
+	position: relative;
+	
+	overflow: hidden;
+	z-index:2;
+	list-style-type: none;
+
+	
+
 }
 
 
-.oubli:hover{
-    background-color : grey;
-    color : white;
+header nav.page-accueil ul li  {
+	
+	height: 200px;
+	float: left;
+	margin: 2.5%;
+	margin-right: -2.5%;
+	display: inline-block;
+
 }
 
-
-.Oubli{
-    height : 25px;
-    margin-right : 100px;
+header nav.page-accueil ul li.rubriques a  {
+	
+	color : white;
+	text-decoration: none;
+	background-color: grey;
+	padding: 10px;
+	text-align: center;
+	display: block;
+	font-family: "Roboto";
+		
 }
 
+header nav.page-accueil ul li.rubriques:hover a{
+	color : grey;
+	background-color: #483D8B;
+	transition: 0.5s;
+} 
 
-.oubli{
-    font-size : 15px;
-    font-family : "Roboto";
-    color : black;
-    position : static;
-    float : right;
-    
-    text-decoration : none;
-}
 
+
+
+
+
+
+
+/* FOOTER */
 footer{
-    position:fixed;
-    bottom: 0%;
-    height: 35%;
+	position:fixed;
+	bottom: 0%;
+	height: 35%;
 
 }
 .footer-distributed{
-    background-color: #292c2f;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    text-align: left;
-    font: bold 16px sans-serif;
-    z-index: 2;
-    padding: 55px 50px;
-    margin-top: 80px;
-    width: 100%;
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 	z-index: 2;
+	padding: 55px 50px;
+	margin-top: 80px;
+	width: 100%;
 }
  
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
 .footer-distributed .footer-right{
-    display: inline-block;
-    vertical-align: top;
-    margin-bottom: -13%;
-    margin-top: -3%;
-    margin-right: -3%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: -13%;
+	margin-top: -3%;
+	margin-right: -3%;
 
 }
  
 .footer-distributed .footer-left{
-    width: 40%;
+	width: 40%;
 }
  
 .footer-distributed h3{
-    color:  #ffffff;
-    font: normal 36px 'Cookie', cursive;
-    margin: 0;
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
 }
  
 .footer-distributed h3 span{
-    color:  #9370DB;
+	color:  #9370DB;
 }
  
  
 .footer-distributed .footer-links{
-    color:  #ffffff;
-    margin: 20px 0 12px;
-    padding: 0;
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
 }
  
 .footer-distributed .footer-links a{
-    display:inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color:  inherit;
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
 }
  
 .footer-distributed .footer-company-name{
-    color: #8f9296;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
+	color: #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
 }
  
  
 .footer-distributed .footer-center{
-    width: 35%;
-    margin-top: 0%;
+	width: 35%;
+	margin-top: 0%;
 }
  
 .footer-distributed .footer-center i{
-    background-color:  #33383b;
-    color: #ffffff;
-    font-size: 25px;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 42px;
-    vertical-align: middle;
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	vertical-align: middle;
 }
  
 .footer-distributed .footer-center i.fa-envelope{
-    font-size: 17px;
-    line-height: 38px;
+	font-size: 17px;
+	line-height: 38px;
 }
  
 .footer-distributed .footer-center p{
-    display: inline-block;
-    color: #ffffff;
-    vertical-align: middle;
-    margin:0;
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
 }
  
 .footer-distributed .footer-center p span{
-    display:block;
-    font-weight: normal;
-    font-size:14px;
-    line-height:2;
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
 }
  
 .footer-distributed .footer-center p a{
-    color:  #9370DB;
-    text-decoration: none;;
+	color:  #9370DB;
+	text-decoration: none;;
 }
  
 .footer-distributed .footer-right{
-    width: 20%;
+	width: 20%;
 
 }
  
 .footer-distributed .footer-company-about{
-    line-height: 20px;
-    color:  #9370DB;
-    font-size: 13px;
-    font-weight: normal;
-    margin-right:-50%;
+	line-height: 20px;
+	color:  #9370DB;
+	font-size: 13px;
+	font-weight: normal;
+	margin-right:-50%;
 
 }
  
 .footer-distributed .footer-company-about span{
-    display: block;
-    color:  #ffffff;
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 20px;
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
  
 .footer-distributed .footer-icons{
-    margin-top: 25px;
+	margin-top: 25px;
 }
  
 .footer-distributed .footer-icons a{
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    background-color:  #33383b;
-    border-radius: 2px;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
  
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 35px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
  
-    margin-right: 3px;
-    margin-bottom: 5px;
+	margin-right: 3px;
+	margin-bottom: 5px;
 }
  
  
 
 @media (max-width: 880px){
 
-    footer.footer-distributed{
-        font: bold 14px sans-serif;
-        (max-width: 880px);
-    }
+	footer.footer-distributed{
+		font: bold 14px sans-serif;
+		(max-width: 880px);
+	}
  
-    footer.footer-distributed .footer-left,
-    footer.footer-distributed .footer-center,
-    footer.footer-distributed .footer-right{
-        display: block;
-        width: fixed;
-        margin-bottom: 40px;
-        text-align: center;
-    }
+	footer.footer-distributed .footer-left,
+	footer.footer-distributed .footer-center,
+	footer.footer-distributed .footer-right{
+		display: block;
+		width: fixed;
+		margin-bottom: 40px;
+		text-align: center;
+	}
  
-    footer.footer-distributed .footer-center i{
-        margin-left: 0;
-    }
-    footer.main {
-        line-height: normal;
-        font-size: auto;
-    }
+	footer.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	footer.main {
+		line-height: normal;
+		font-size: auto;
+	}
 
 footer.footer-distributed .footer-right iframe.API{
-        
-        font-size: 50px;
-        
-        width: 450px;
+		
+		font-size: 50px;
+		
+		width: 450px;
     height: 30px;
     margin: 10px auto;
 
