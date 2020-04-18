@@ -1,0 +1,312 @@
+*{
+    margin : 0%;
+    padding : 0;
+}
+
+#login{
+    position : fixed;
+    
+}
+
+section{
+
+    color: grey;
+}
+
+html{
+    height : 10%;
+    background-color : white;
+
+}
+
+
+hr{
+
+    margin-bottom:5%;
+    margin-top:-3.5%;
+
+}
+
+#hr1{
+    margin-top:-7.5%;
+}
+
+
+
+#container{
+    float: center;
+    position: absolute;;
+    top: 20%;
+    left: 35%;
+  
+}
+
+.Usertxt{
+    position : relative;
+    color : black;
+    font-size : 20px;
+    font-family : "Roboto";
+
+}
+
+.Username{
+    height : 100px;
+}
+
+.Passtxt{
+    position : relative;
+    color : black;
+    font-size : 20px;
+    font-family : "Roboto";
+    text-align: 
+}
+
+.Password{
+    height : 100px;
+    border-radius : 10px;
+}
+
+.username{
+    height : 50px;
+    width : 500px;
+    font-family : "Roboto";
+    font-size : 100%;
+    border : 1px;
+    border-radius : 10px;
+}
+
+
+.password{
+    height : 50px;
+    width : 500px;
+    font-family : "Roboto";
+    font-size : 100%;
+    border : 1px;
+    border-radius : 10px;
+    text-align: 10%
+}
+
+
+input[type=submit] {
+    background-color:#9370DB ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+
+.oubli:hover{
+    background-color : grey;
+    color : white;
+}
+
+
+.Oubli{
+    height : 25px;
+    margin-right : 100px;
+}
+
+
+.oubli{
+    font-size : 15px;
+    font-family : "Roboto";
+    color : black;
+    position : static;
+    float : right;
+    
+    text-decoration : none;
+}
+
+footer{
+    position:fixed;
+    bottom: 0%;
+    height: 35%;
+
+}
+.footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    text-align: left;
+    font: bold 16px sans-serif;
+    z-index: 2;
+    padding: 55px 50px;
+    margin-top: 80px;
+    width: 100%;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: -13%;
+    margin-top: -3%;
+    margin-right: -3%;
+
+}
+ 
+.footer-distributed .footer-left{
+    width: 40%;
+}
+ 
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+ 
+.footer-distributed h3 span{
+    color:  #9370DB;
+}
+ 
+ 
+.footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+    width: 35%;
+    margin-top: 0%;
+}
+ 
+.footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+    color:  #9370DB;
+    text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+    width: 20%;
+
+}
+ 
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #9370DB;
+    font-size: 13px;
+    font-weight: normal;
+    margin-right:-50%;
+
+}
+ 
+.footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+ 
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+ 
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+ 
+ 
+
+@media (max-width: 880px){
+
+    footer.footer-distributed{
+        font: bold 14px sans-serif;
+        (max-width: 880px);
+    }
+ 
+    footer.footer-distributed .footer-left,
+    footer.footer-distributed .footer-center,
+    footer.footer-distributed .footer-right{
+        display: block;
+        width: fixed;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+ 
+    footer.footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+    footer.main {
+        line-height: normal;
+        font-size: auto;
+    }
+
+footer.footer-distributed .footer-right iframe.API{
+        
+        font-size: 50px;
+        
+        width: 450px;
+    height: 30px;
+    margin: 10px auto;
+
+}
+}
