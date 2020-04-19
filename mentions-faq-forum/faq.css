@@ -115,57 +115,122 @@ p{
 }
 
 /*MENU*/
-header nav.page-accueil ul{
-	
-	
-	cursor:auto;
-	mix-blend-mode: multiply;
-	
-	font-size: 20px;
-  	margin-left: 0%;
-  	margin-right: 9%;
-  	margin-bottom: -18%;
-  	margin-top: -1%;
-    color : #333;
+html, body { /*QUAND ON EST DANS UNE RUBRIQUE*/
+    margin: 0%;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background: white;
+    font: bold 15% sans-serif;
+    
+    
+}
+img{
+    width: 65px;
+    height: 55px;
+    margin : 1%;
+}
+
+
+h1{
+    font: normal 30px "Roboto", cursive;
+    margin: 1%;
+}
+    
+/*Header */
+header div .bande {
+    padding:0;
+    background-color: #292c2f;
+
+
+}
+header div.menu{
+    background-color: grey;
+}
+
+header nav.utilisateur ul{
+    cursor:auto;
+    
+    
+    font-size: 15px;
+    margin-right: 9%;
+    
+    
     padding: 0;
     
-	position: relative;
-	
-	overflow: hidden;
-	z-index:2;
-	list-style-type: none;
+    position: relative;
+    
+    overflow: hidden;
+    
+    list-style-type: none;
 
-	
+}
+header nav.utilisateur ul li  {
+    
+    float: left;
+    margin: 0%;
+    display: inline-block;
+
+
+}
+
+header nav.utilisateur ul li.rubriques a  {
+    
+    color : white;
+    text-decoration: none;
+    background-color: #292c2f;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    font-family: "Roboto";
+        
+}
+
+header nav.utilisateur ul li.rubriques:hover a{
+    color : grey;
+    transition: 0.5s;
+} 
+
+
+/*MENU*/
+header nav.page-accueil ul{
+    
+    
+    cursor:auto;
+    font-size: 15px;
+    margin-top: -1.5%;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    list-style-type: none;
 
 }
 
 
 header nav.page-accueil ul li  {
-	
-	height: 200px;
-	float: left;
-	margin: 2.5%;
-	margin-right: -2.5%;
-	display: inline-block;
+    
+    
+    float: left;
+    display: inline-block;
 
 }
 
 header nav.page-accueil ul li.rubriques a  {
-	
-	color : white;
-	text-decoration: none;
-	background-color: grey;
-	padding: 10px;
-	text-align: center;
-	display: block;
-	font-family: "Roboto";
-		
+    
+    color : white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    font-family: "Roboto";
+        
 }
 
 header nav.page-accueil ul li.rubriques:hover a{
-	color : grey;
-	background-color: #483D8B;
-	transition: 0.5s;
+    color : grey;
+    background-color: #483D8B;
+    transition: 0.5s;
 } 
 
 
