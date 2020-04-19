@@ -7,7 +7,6 @@ body
     height: 100%;
 }
 
-
 input {
     background-color:white ; /*champs à remplir*/
     color: white;
@@ -16,71 +15,20 @@ input {
     cursor: pointer;
     width: 100%;
 }
+
 input:hover {
     background-color: white;
     color: black;
     
 }
 
-nav.page-accueil ul{
-    
-    
-    cursor:auto;
-    mix-blend-mode: multiply;
-    
-    font-size: 20px;
-    margin-left: 0%;
-    margin-right: 9%;
-    margin-bottom: -13%;
-    margin-top: -1%;
-    color : #333;
-    padding: 0;
-    
-    position: relative;
-    
-    overflow: hidden;
-    z-index:2;
-    list-style-type: none;
-}
-
-
- nav.page-accueil ul li  {
-    
-    height: 20px; /*MAXI IMPORTANT à changer pour que le header soit ok*/
-    float: left;
-    margin: 2.5%;
-    margin-right: -2.5%;
-    display: inline-block;
-
-}
-
- nav.page-accueil ul li.rubriques a  {
-    
-    color : white;
-    text-decoration: none;
-    background-color: grey;
-    padding: 10px;
-    text-align: center;
-    display: block;
+p{
     font-family: "Roboto";
-        
-}
-
- nav.page-accueil ul li.rubriques:hover a{
-    color : grey;
-    background-color: #483D8B;
-    transition: 0.5s;
-} 
-
-
-.Paramètres-du-compte-titre p{
-    font-family: "Roboto";
-    border : 3px solid black;
-    font-size: large;
+    font-size: xx-large;
+    font-weight: bold;
     position: absolute;
-    top : 800px;
-    left : 30px;
-    
+    top : 50px;
+    left : 50px;
 }
 
 hr{
@@ -104,8 +52,7 @@ hr{
     top: 150px;
     left: 370px;
 }
-
-       
+    
 .bouton
 {
 background-color: #333;
