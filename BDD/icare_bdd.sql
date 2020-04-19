@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3308
--- Généré le :  mar. 07 avr. 2020 à 20:25
+-- Généré le :  Dim 19 avr. 2020 à 10:25
 -- Version du serveur :  8.0.18
 -- Version de PHP :  7.3.12
 
@@ -155,6 +155,18 @@ CREATE TABLE IF NOT EXISTS `question forum` (
 -- --------------------------------------------------------
 
 --
+-- Structure de la table `reponse forum`
+--
+
+DROP TABLE IF EXISTS `reponse forum`;
+CREATE TABLE IF NOT EXISTS `reponse forum` (
+  `N° de réponse` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`N° de réponse`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
 -- Structure de la table `resultats du test`
 --
 
@@ -169,18 +181,6 @@ CREATE TABLE IF NOT EXISTS `resultats du test` (
   `Temps de réaction` int(11) NOT NULL,
   `Score total` int(11) NOT NULL,
   PRIMARY KEY (`N° de test`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
--- --------------------------------------------------------
-
---
--- Structure de la table `réponse forum`
---
-
-DROP TABLE IF EXISTS `réponse forum`;
-CREATE TABLE IF NOT EXISTS `réponse forum` (
-  `N° de réponse` int(11) NOT NULL AUTO_INCREMENT,
-  PRIMARY KEY (`N° de réponse`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
