@@ -32,18 +32,12 @@ header div.menu{
 
 header nav.utilisateur ul{
 	cursor:auto;
-	
-	
 	font-size: 15px;
   	margin-right: 9%;
-  	
-    
+	margin-bottom: 1%;
     padding: 0;
-    
 	position: relative;
-	
 	overflow: hidden;
-	
 	list-style-type: none;
 
 }
@@ -137,7 +131,7 @@ nav.page-accueil-gestionnaire ul{
     position: absolute;	
 	overflow: hidden;
     list-style-type: none;
-    top: 170px;
+    top: 175px;
 }
 
 
