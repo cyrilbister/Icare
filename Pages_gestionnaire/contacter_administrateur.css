@@ -209,6 +209,8 @@ hr{
     left: 50px;
 	color: black;
 	overflow: scroll;
+	height: 100px;
+	border: 3px solid black;
 }
             
 
@@ -229,7 +231,7 @@ font-family: "Roboto";
 footer{
 	position:fixed;
 	bottom: 0%;
-	height: 30%;
+	height: 20%;
 	padding: 0;
 
 
