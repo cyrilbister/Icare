@@ -90,8 +90,6 @@ header nav.utilisateur ul li.rubriques:hover a{
 
 /*MENU*/
 header nav.page-accueil ul{
-	
-	
 	cursor:auto;
 	font-size: 25em;
     margin-top: -1.5%;
@@ -99,20 +97,16 @@ header nav.page-accueil ul{
 	position: relative;
 	overflow: hidden;
 	list-style-type: none;
-
 }
 
 
 header nav.page-accueil ul li  {
-	
 	margin:0.5%;
 	float: left;
 	display: inline-block;
-
 }
 
 header nav.page-accueil ul li.rubriques a  {
-	
 	color : white;
 	text-decoration: none;
 	background-color: grey;
