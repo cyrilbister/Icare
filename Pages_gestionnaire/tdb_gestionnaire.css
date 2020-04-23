@@ -1,84 +1,40 @@
-
-html, body {
-	
-    margin: 0%;
-	padding: 0%;
-	height: 100%;
-	width: 100%;
-	background: white;
-	font: bold 15% sans-serif;
-	
+.titre{
+	font-family: "Roboto";
+    font-size: 25px;
+	font-weight: bold;
+	position : absolute;
+	left : 50px;
+	top : 250px;
 }
-
-nav.page-accueil-gestionnaire ul{
-	
-	
-	cursor:auto;
-	/* mix-blend-mode: multiply; */
-	margin : 0;
-  	font-size: 20px;
-  	margin-left: 5%;
-  	/* margin-right: 9%; */
-    color : #333;
-    padding: 0;
-    /* margin-top: -1%; */
-    
-	/* position: relative; */
-	
-	overflow: hidden;
-	/* z-index:2; */
-	list-style-type: none;
+.annonce{
+	position : absolute;
+	left : 50px;
+	top : 300px;
+	color : black;
+	font-size: 20px;
+	font-family: "Roboto";
 }
-
-
-nav.page-accueil-gestionnaire ul li  {
-
-	display: block;
-	float: left;
-	/* margin: 2.5%;
-	margin-right: -2.5%; */
-	display: inline-block;
-}
-
-nav.page-accueil-gestionnaire ul li.rubriques a  {
-	
-	color : white;
-	text-decoration: none;
-	background-color: grey;
-	padding: 10px;
-	text-align: center;
-	display: block;
+.description{
+	position : absolute;
+	left : 50px;
+	top : 390px;
+	color : black;
+	font-size: 20px;
 	font-family: "Roboto";
 }
 
-nav.page-accueil-gestionnaire ul li.rubriques:hover a{
-	color : grey;
-	background-color: #483D8B;
-	transition: 0.5s;
-} 
-
-p{
-	color : black;
-	font-size: medium;
-	margin-left: 5%;
-}
-
-h1{
-	color : black;
-	font-size: medium;
-	padding-bottom: 0,5%;
-}
-
 #Affichage-élèves{
-    display: flex;
+	position : absolute;
+	left : 50px;
+	top : 430px;
+	display: flex;
     flex-direction: column;
     align-items: flex-start;
 	padding-top: 1%;
 	padding-bottom: 75px;
 	padding-right: 5%;
     padding-left : 5%;
-
-    font-size: 22px;
+    font-size: 20px;
 }
 
 tr
@@ -89,7 +45,6 @@ tr
     margin-bottom: 15px;
     border: 1px solid black;
     box-shadow: 2px 2px 5px #483D8B;
-    
 }
 
 th
@@ -97,8 +52,7 @@ th
     padding-top : 14px;
     width: 200px;
     height: 40px;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 .choix:hover
@@ -112,7 +66,6 @@ tr a
     display: block;
     text-decoration: none;
     color: black;
-    
     padding-top : 14px;
     width: 200px;
     height: 40px;
@@ -139,7 +92,6 @@ footer{
 	margin-top: 80px;
 	width: 100%;
 }
- 
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
 .footer-distributed .footer-right{
@@ -150,48 +102,38 @@ footer{
 	margin-right: -3%;
 
 }
- 
 .footer-distributed .footer-left{
 	width: 40%;
 }
- 
 .footer-distributed h3{
 	color:  #ffffff;
 	font: normal 36px 'Cookie', cursive;
 	margin: 0;
 }
- 
 .footer-distributed h3 span{
 	color:  #9370DB;
-}
- 
- 
+} 
 .footer-distributed .footer-links{
 	color:  #ffffff;
 	margin: 20px 0 12px;
 	padding: 0;
-}
- 
+} 
 .footer-distributed .footer-links a{
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
 }
- 
 .footer-distributed .footer-company-name{
 	color: #8f9296;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
-}
- 
- 
+} 
 .footer-distributed .footer-center{
 	width: 35%;
 	margin-top: 0%;
-}
- 
+} 
 .footer-distributed .footer-center i{
 	background-color:  #33383b;
 	color: #ffffff;
@@ -202,46 +144,38 @@ footer{
 	text-align: center;
 	line-height: 42px;
 	vertical-align: middle;
-}
- 
+} 
 .footer-distributed .footer-center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
 }
- 
 .footer-distributed .footer-center p{
 	display: inline-block;
 	color: #ffffff;
 	vertical-align: middle;
 	margin:0;
-}
- 
+} 
 .footer-distributed .footer-center p span{
 	display:block;
 	font-weight: normal;
 	font-size:14px;
 	line-height:2;
-}
- 
+} 
 .footer-distributed .footer-center p a{
 	color:  #9370DB;
 	text-decoration: none;;
-}
- 
+} 
 .footer-distributed .footer-right{
 	width: 20%;
 
 }
- 
 .footer-distributed .footer-company-about{
 	line-height: 20px;
 	color:  #9370DB;
 	font-size: 13px;
 	font-weight: normal;
 	margin-right:-50%;
-
 }
- 
 .footer-distributed .footer-company-about span{
 	display: block;
 	color:  #ffffff;
@@ -249,11 +183,9 @@ footer{
 	font-weight: bold;
 	margin-bottom: 20px;
 }
- 
 .footer-distributed .footer-icons{
 	margin-top: 25px;
-}
- 
+} 
 .footer-distributed .footer-icons a{
 	display: inline-block;
 	width: 35px;
@@ -270,9 +202,6 @@ footer{
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
- 
- 
-
 @media (max-width: 880px){
 
 	footer.footer-distributed{

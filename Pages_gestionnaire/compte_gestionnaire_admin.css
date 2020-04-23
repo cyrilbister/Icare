@@ -7,28 +7,14 @@ html, body { /*QUAND ON EST DANS UNE RUBRIQUE*/
 	font: bold 1px sans-serif;
 }
 
-/* body p.contenu{
-	font-size: 20px;
-	padding: 0%;
-	margin: 1%;
-} */
-
-/* h1{
-	font: normal 30px "Roboto", cursive;
-	margin: 1%;
-}
- */
 label{
 
 	font-size: 20px;
 }
 
-
 header div.bande{
 	margin: 0;
 	background-color: #292c2f;
-
-
 }
 header div.menu{
 	background-color: grey;
@@ -38,7 +24,6 @@ header div.perso{
 	margin-top: 2%;
 }
 header nav.page-accueil ul li.rubriques1 a  {
-	
 	color : white;
 	text-decoration: none;
 	background-color: #483D8B;
@@ -126,14 +111,13 @@ input {
     color: black;
     margin: 8px 0;
 	border: none;
-    cursor: pointer;
+    cursor: text;
     width: 100%;
 }
 
 input:hover {
     background-color: white;
     color: black;
-    
 }
 
 .titre {
