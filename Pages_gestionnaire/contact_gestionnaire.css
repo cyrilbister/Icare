@@ -1,184 +1,22 @@
-html, body { /*QUAND ON EST DANS UNE RUBRIQUE*/
-	margin: 0%;
-	padding: 0px;
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
-}
-
-
-h1{
-	font: normal 30px "Roboto", cursive;
-	margin: 2%;
-	margin-left: 3%;
-	margin-top: 0%;
-}
-p{
-	font: normal 15px "Roboto", cursive;
-	margin: 2%;
-	margin-left: 3%;
-	margin-top: 0%;
-}
-
-
-header div .bande {
-	padding:0;
-	background-color: #292c2f;
-
-
-}
-header div.menu{
-	background-color: grey;
-}
-
-header nav.utilisateur ul{
-	cursor:auto;
-	font-size: 15px;
-	margin-right: 9%;
-	margin-bottom: 1%;
-    padding: 0;
-	position: relative;
-	overflow: hidden;
-	list-style-type: none;
-
-}
-header nav.utilisateur ul li  {
-	
-	float: left;
-	margin: 0%;
-	display: inline-block;
-
-
-}
-
-header nav.utilisateur ul li.rubriques a  {
-	
-	color : white;
-	text-decoration: none;
-	background-color: #292c2f;
-	padding: 10px;
-	text-align: center;
-	display: block;
-	font-family: "Roboto";
-		
-}
-
-header nav.utilisateur ul li.rubriques:hover a{
-	color : grey;
-	transition: 0.5s;
-} 
-
-
-/*MENU*/
-header nav.page-accueil ul{
-	
-	
-	cursor:auto;
-	font-size: 15px;
-    margin-top: -1.5%;
-    padding: 0;
-	position: relative;
-	overflow: hidden;
-	list-style-type: none;
-
-}
-
-
-header nav.page-accueil ul li  {
-	
-	
-	float: left;
-	display: inline-block;
-
-}
-
-header nav.page-accueil ul li.rubriques a  {
-	
-	color : white;
-	text-decoration: none;
-	background-color: grey;
-	padding: 10px;
-	text-align: center;
-	display: block;
-	font-family: "Roboto";
-		
-}
-
-header nav.page-accueil ul li.rubriques:hover a{
-	color : grey;
-	background-color: #483D8B;
-	transition: 0.5s;
-} 
-
-body
-{
-	color : black;
-	background-color: white;
-	font-family: "Roboto"; 
-    margin-bottom: 60%;
-    height: 100%;
-}
-
-nav.page-accueil-gestionnaire ul{
-	
-	
-	cursor:auto;
-	mix-blend-mode: multiply;
-	margin : 0;
-  	font-size: 15px;
-    color : #333;
-    padding: 0;    
-    position: absolute;	
-	overflow: hidden;
-    list-style-type: none;
-    top: 175px;
-}
-
-
-nav.page-accueil-gestionnaire ul li  {
-
-	display: block;
-	float: left;
-	/* margin: 2.5%;
-	margin-right: -2.5%; */
-	display: inline-block;
-}
-
-nav.page-accueil-gestionnaire ul li.rubriques a  {
-	
-	color : white;
-	text-decoration: none;
-	background-color: grey;
-	padding: 10px;
-	text-align: center;
-	display: block;
-	font-family: "Roboto";
-}
-
-nav.page-accueil-gestionnaire ul li.rubriques:hover a{
-	color : grey;
-	background-color: #483D8B;
-	transition: 0.5s;
-} 
-
 input {
     background-color:white ; /*champs à remplir*/
     color: black;
     margin: 8px 0;
-    border: none;
-    cursor: pointer;
+   
+    /* cursor: pointer; */
     width: 100%;
 }
 
 input:hover {
     background-color: white;
-    color: black;
-    
+	color: black;
 }
+
+
 
 .titre {
     font-family: "Roboto";
-    font-size: xx-large;
+    font-size: 25px;
     font-weight: bold;
     position: absolute;
     top : 250px;
@@ -186,45 +24,48 @@ input:hover {
 }
 .instruction {
     font-family: "Roboto";
-    font-size: medium;
-    font-weight: bold;
+    font-size: 20px;
     position: absolute;
     top : 300px;
     left : 50px;
 }
+label{
 
-hr{
-    color : rgb(105,105,15);
-    margin-bottom: 8%;
-    margin-top: -4%;
-    border-top: 4% ;
-	height: 5%;
-	width: 330px;
+	font-size: 20px;
+}
+#message{
+	position: absolute;
+    top: 30px;
+    left: 0px;
+	color: black;
+	overflow: scroll;
+	height: 150px;
+	width: 470px;
+	border : 1px solid #9370DB;
 }
 
 #un
 {
     position: absolute;
-    top: 350px;
+    top: 380px;
     left: 50px;
 	color: black;
-	overflow: scroll;
 	height: 100px;
-	border: 3px solid black;
 }
-            
 
 .bouton
 {
-background-color: #333;
+background-color: #483D8B;
 font-size: medium;
 color : white;
 position : absolute;
-top : 500px;
+top : 600px;
 left : 50px;
 width: 470px;
 height: 5%;
 font-family: "Roboto";
+border : none;
+cursor : pointer;
 }
 
 /* FOOTER */
