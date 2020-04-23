@@ -154,7 +154,7 @@ footer{
 
 	footer.footer-distributed{
 		font: bold 25px sans-serif;
-		(max-width: 880px);
+		max-width: 880px;
 	}
  
 	footer.footer-distributed .footer-left,

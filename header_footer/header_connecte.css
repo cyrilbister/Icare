@@ -43,14 +43,11 @@ header nav.page-accueil ul li.rubriques1 a  {
 	font-family: "Roboto";
 		
 }
-
 header nav.page-accueil ul li.rubriques1:hover a{
 	color : grey;
 	padding: 15px;
 	transition: 0.5s;
 } 
-
-
 header nav.utilisateur ul{
 	cursor:auto;
 	font-size: 25em;
@@ -61,33 +58,24 @@ header nav.utilisateur ul{
 	list-style-type: none;
 
 }
-header nav.utilisateur ul li  {
-	
+header nav.utilisateur ul li  {	
 	float: left;
 	margin: 1%;
 	display: inline-block;
-
-
 }
-
 header nav.utilisateur ul li.rubriques a  {
-	
 	color : white;
 	text-decoration: none;
 	background-color: #292c2f;
 	padding: 10px;
 	text-align: center;
 	display: block;
-	font-family: "Roboto";
-		
+	font-family: "Roboto";	
 }
-
 header nav.utilisateur ul li.rubriques:hover a{
 	color : grey;
 	transition: 0.5s;
 } 
-
-
 /*MENU*/
 header nav.page-accueil ul{
 	cursor:auto;
@@ -98,14 +86,11 @@ header nav.page-accueil ul{
 	overflow: hidden;
 	list-style-type: none;
 }
-
-
 header nav.page-accueil ul li  {
 	margin:0.5%;
 	float: left;
 	display: inline-block;
 }
-
 header nav.page-accueil ul li.rubriques a  {
 	color : white;
 	text-decoration: none;
@@ -116,7 +101,6 @@ header nav.page-accueil ul li.rubriques a  {
 	font-family: "Roboto";
 		
 }
-
 header nav.page-accueil ul li.rubriques:hover a{
 	color : #483D8B;
 	padding: 15px;
