@@ -4,49 +4,46 @@
     <meta charset="utf-8" />
     <title>Nouvel utilisateur</title>
     <link href="nouvel_utilisateur.css" rel="stylesheet" media="all" type="text/css"> 
+    <link href="../header_footer/header_connecte.css" rel="stylesheet" media="all" type="text/css"> 
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
 </head>
 
 <header>
-	<div class="container">
-        <div class="bande">
-            <img src="../infinite_measures.gif"/>
-            <h1> [Nom de la société à parametrer]</h1>
-            <nav class="utilisateur">
-            <ul>
-                <li class="rubriques" ><a href="accueil.html">Déconnexion</a></li>
-                <li class="rubriques"><a href="compte_gestionnaire.html.html">Mon compte</a></li>
-            </ul>
-            </nav> 
-        </div>
+    <div class="bande">
+      <nav class="utilisateur">
+        <ul>
+          <li class="rubriques" ><a href="login.html">Deconnexion</a></li>
+          <li class="rubriques"><a href="compte_gestionnaire.html">Mon compte</a></li>
+          <!-- lien vers les paramètres du comptes (différent pour chaque type de compte) -->
+        </ul>
+      </nav> 
     </div>
-    
-	<div class="menu">
-        <nav class="page-accueil">
-            <ul>
-                <li class="rubriques" ><a href="accueil.html">Accueil</a></li>
-                <li class="rubriques" ><a href="infinite_measures.html">Infinite Measures & Vous</a></li>
-                <li class="rubriques"><a href="equipe.html">Notre Equipe</a></li>
-                <li class="rubriques"><a href="stats.html">Nos Statistiques</a></li>
-                <li class="rubriques"><a href="faq.html">FAQ</a></li>
-                <li class="rubriques"><a href="forum.html">Forum</a></li>
-            </ul>
-        </nav>
-	</div>
-</header>
+    <div class="menu">
+      <nav class="page-accueil">
+        <ul>
+          <li class="rubriques" ><a href="accueil.html">Accueil</a></li>
+                  <li class="rubriques" ><a href="infinite_measures.html">Infinite Measures & Vous</a></li>
+                  <li class="rubriques"><a href="equipe.html">Notre Equipe</a></li>
+                  <li class="rubriques"><a href="stats.html">Nos Statistiques</a></li>
+                  <li class="rubriques"><a href="forum.html">Forum</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="perso">
+      <nav class="page-accueil">
+        <ul>
+          <li class="rubriques1"><a href="tdb_gestionnaire.html">Tableau de bord</a></li>
+          <li class="rubriques1"><a href="nouvel_utilisateur.html">Nouvel utilisateur</a></li>
+          <li class="rubriques1"><a href="vu_resultats_gestionnaire.html">Consulter les tests</a></li>
+          <li class="rubriques1"><a href="forum_gestionnaire.html">Participer au forum</a></li>
+          <li class="rubriques1"><a href="contact_gestionnaire.html">Contacter l'administrateur</a></li>		
+        </ul>
+      </nav>
+    </div>
+  </header>
 
 <body>
-    <nav class="page-accueil-gestionnaire">
-        <ul>
-            <li class="rubriques"><a href="tdb_gestionnaire.html">Tableau de bord</a></li>
-            <li class="rubriques"><a href="nouvel_utilisateur.html">Nouvel utilisateur</a></li>
-            <li class="rubriques"><a href="vu_resultats_gestionnaire.html">Consulter les tests</a></li>
-            <li class="rubriques"><a href="forum_gestionnaire.html">Participer au forum</a></li>
-            <li class="rubriques"><a href="contact_gestionnaire.html">Contacter l'administrateur</a></li>
-        </ul>
-    </nav>
-
     <form method="POST" action="test.php">
         <p class="titre">
             Inscription d'un nouvel utilisateur
@@ -54,15 +51,13 @@
         <p class="instruction">
             Une clé sera générée et envoyée à l'adresse mail saisie
         </p>
-        <input type="submit" value="Confirmer l'adresse mail pour l'envoie de la clé d'inscription" class="bouton"/>
+        <input type="submit" value="Confirmer l'adresse mail pour l'envoi de la clé d'inscription" class="bouton"/>
         <div class="container" id="un">
             <label for="mail">Adresse mail</label><br /> <input type="text" id="mail" name="mail_inc" class="mail"/><br />
             <hr>
-            </section>
         </div>
         <p class="ajoutPHP"><!-- paragraphe pour le Javascipt--></p> 
-    </form>
-    
+    </form> 
 </body>
 <footer class="footer-distributed">
  
