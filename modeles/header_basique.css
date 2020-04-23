@@ -9,10 +9,12 @@ html, body { /*QUAND ON EST DANS UNE RUBRIQUE*/
 	
 	
 }
-img{
-	width: 65px;
-	height: 55px;
-	margin : 1%;
+
+body p.contenu{
+	font-size: 20px;
+	padding: 0%;
+	margin: 1%;
+
 }
 
 
@@ -22,8 +24,8 @@ h1{
 }
 	
 
-header div .bande {
-	padding:0;
+header div.bande{
+	margin: 0;
 	background-color: #292c2f;
 
 
@@ -34,9 +36,9 @@ header div.menu{
 
 header nav.utilisateur ul{
 	cursor:auto;
-	font-size: 25px;
+	font-size: 25em;
   	margin-right: 9%;
-    padding: 0;
+  	margin-top:0%;
 	position: relative;
 	overflow:hidden;
 	list-style-type: none;
@@ -45,7 +47,7 @@ header nav.utilisateur ul{
 header nav.utilisateur ul li  {
 	
 	float: left;
-	margin: 0%;
+	margin: 1%;
 	display: inline-block;
 
 
@@ -74,7 +76,7 @@ header nav.page-accueil ul{
 	
 	
 	cursor:auto;
-	font-size: 25px;
+	font-size: 25em;
     margin-top: -1.5%;
     padding: 0;
 	position: relative;
@@ -86,7 +88,7 @@ header nav.page-accueil ul{
 
 header nav.page-accueil ul li  {
 	
-	
+	margin:0.5%;
 	float: left;
 	display: inline-block;
 
@@ -97,7 +99,7 @@ header nav.page-accueil ul li.rubriques a  {
 	color : white;
 	text-decoration: none;
 	background-color: grey;
-	padding: 10px;
+	padding: 15px;
 	text-align: center;
 	display: block;
 	font-family: "Roboto";
@@ -105,10 +107,8 @@ header nav.page-accueil ul li.rubriques a  {
 }
 
 header nav.page-accueil ul li.rubriques:hover a{
-	color : grey;
-	background-color: #483D8B;
+	color : #483D8B;
+	
+	padding: 15px;
 	transition: 0.5s;
 } 
-
-
-
