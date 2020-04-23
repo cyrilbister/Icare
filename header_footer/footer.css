@@ -2,23 +2,20 @@
 footer{
 	position:fixed;
 	bottom: 0%;
-	height: 20%;
-	padding: 0;
-
+	height: 25%;
+	left:0%;
 
 }
 .footer-distributed{
 	background-color: #292c2f;
-	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
-
 	text-align: left;
-	font: bold 16px sans-serif;
+	font: bold 25px sans-serif;
+ 	z-index: 2;
 	padding: 55px 50px;
 	margin-top: 80px;
 	width: 100%;
-
-
 }
  
 .footer-distributed .footer-left,
@@ -38,8 +35,8 @@ footer{
  
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
-	margin: 0;
+	font: normal 55px 'Cookie', cursive;
+	margin-top: 0.5%;
 }
  
 .footer-distributed h3 span{
@@ -49,7 +46,6 @@ footer{
  
 .footer-distributed .footer-links{
 	color:  #ffffff;
-	margin: 20px 0 12px;
 	padding: 0;
 }
  
@@ -62,7 +58,7 @@ footer{
  
 .footer-distributed .footer-company-name{
 	color: #8f9296;
-	font-size: 14px;
+	font-size: 20em;
 	font-weight: normal;
 	margin: 0;
 }
@@ -100,7 +96,7 @@ footer{
 .footer-distributed .footer-center p span{
 	display:block;
 	font-weight: normal;
-	font-size:14px;
+	font-size:25px;
 	line-height:2;
 }
  
@@ -117,7 +113,7 @@ footer{
 .footer-distributed .footer-company-about{
 	line-height: 20px;
 	color:  #9370DB;
-	font-size: 13px;
+	
 	font-weight: normal;
 	margin-right:-50%;
 
@@ -126,7 +122,7 @@ footer{
 .footer-distributed .footer-company-about span{
 	display: block;
 	color:  #ffffff;
-	font-size: 14px;
+	font-size: 25px;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
@@ -143,7 +139,7 @@ footer{
 	background-color:  #33383b;
 	border-radius: 2px;
  
-	font-size: 20px;
+	font-size: 25px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
@@ -157,8 +153,8 @@ footer{
 @media (max-width: 880px){
 
 	footer.footer-distributed{
-		font: bold 14px sans-serif;
-		max-width: 880px;
+		font: bold 25px sans-serif;
+		(max-width: 880px);
 	}
  
 	footer.footer-distributed .footer-left,
@@ -182,8 +178,8 @@ footer.footer-distributed .footer-right iframe.API{
 		
 		font-size: 50px;
 		
-		width: 450px;
-    	height: 30px;
+		width: 550px;
+    	height: 40px;
     	margin: 10px auto;
 
 }
