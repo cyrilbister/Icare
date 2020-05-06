@@ -1,0 +1,103 @@
+
+html{
+    height : 100%;
+}
+
+
+h1.titre{
+    font: normal 35px "Roboto", cursive;
+    margin: 0%;
+    margin-left: 1%;
+    
+}
+
+
+
+
+#carreBlanc{
+    height: 70%;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+    border: 5%;
+}
+
+
+
+
+
+
+.lorem{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    padding-left : 2%;
+    padding-right : 20%;
+    padding-bottom : 5%;
+    padding-top : 2%;
+    text-align : justify;
+    background-color : white;
+}
+div.lorem p{
+    font: normal 30px "Roboto", cursive;
+}
+
+
+.lorem2{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    padding-left : 20%;
+    padding-right : 10%;
+    padding-bottom : 5%;
+    padding-top : 5%;
+    text-align : justify;
+    background-color : #F5F5F5;
+}
+div.lorem2 p{
+    font: normal 30px "Roboto", cursive;
+}
+
+
+.msg{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    padding-left : 15%;
+    padding-right : 15%;
+    padding-top : 5%;
+    padding-bottom : 5%;
+    margin-bottom: none;
+    background-color : #696969;
+    bottom : -10;
+}
+
+.msg>p{
+    font-weight : bold;
+    font-family : Roboto;
+    font-size : 40px;
+    color : white;
+}
+
+
+html, body {
+	
+    margin: 0%;
+	padding: 0%;
+	height: 100%;
+	width: 100%;
+	background: white;
+	font: bold 15% sans-serif;
+	
+}
+
+
+
+
+
+
+
+

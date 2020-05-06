@@ -1,0 +1,79 @@
+input {
+    background-color:white ; /*champs à remplir*/
+    color: black;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input:hover {
+    background-color: white;
+    color: black;
+    cursor: text;
+}
+
+label{
+
+	font-size: 20px;
+}
+
+p.titre {
+    font-family: "Roboto";
+    font-size: 25px;
+    
+    position: absolute;
+    top : 250px;
+    left : 50px;
+}
+p.instruction {
+    font-family: "Roboto";
+    font-size: 20px;
+    position: absolute;
+    top : 400px;
+    left : 50px;
+}
+
+hr{
+    color : rgb(105,105,15);
+    margin-bottom: 8%;
+    margin-top: -4%;
+    border-top: 4% ;
+	height: 5%;
+	width: 330px;
+	border : 3px solid black;
+}
+
+#un
+{
+    position: absolute;
+    top: 500px;
+    left: 50px;
+	color: black;
+}
+            
+
+.bouton
+{
+background-color: #483D8B;
+font-size: 20px;
+color : white;
+position : absolute;
+top : 600px;
+left : 50px;
+width: 550px;
+height: 5%;
+font-family: "Roboto";
+}
+
+p.instruction{
+    font-size: 25px;
+    margin-top: -4%;
+}
+label.mail{
+    font-size: 25px;
+
+}
+div.container{
+    margin-top:-4%;
+}

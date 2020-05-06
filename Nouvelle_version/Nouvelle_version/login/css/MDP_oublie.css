@@ -1,0 +1,76 @@
+body
+{
+	color : black;
+	background-color: white;
+	font-family: "Roboto"; 
+    margin-bottom: 60%;
+    height: 100%;
+    
+}
+
+
+
+input[type=text] {
+    margin: 8px 0;
+    border-bottom: solid;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    width: 160px;
+    margin-left: 15px;
+}
+
+
+.creation-compte-titre p{
+    font-family: 8px;
+    margin-left: 15px;
+    
+}
+
+hr{
+    color : rgb(105,105,15);
+    margin-bottom: 8%;
+    margin-top: -4%;
+    border-top: 4% ;
+    margin-left: 15px;
+
+    
+    height: 5%;
+}
+
+.message_erreur{
+	position: absolute;
+	color: red;
+    font-size: large;
+    margin-top : 75px;
+    margin-left: 15px;
+}
+
+.bouton
+{
+background-color:#9370DB ;
+color: white;
+border: none;
+cursor: pointer;
+position : absolute;
+width: 225px;
+height: 27px;
+margin-top: 25px;
+font-family: "Roboto";
+font-size: medium;
+margin-left: 15px;
+}
+
+#premierh3
+{
+font : lighter;
+font-size: medium;
+margin-left: 15px;
+
+}
+
+.mail{
+
+    font-size: large;
+    margin-left: 15px;
+
+}

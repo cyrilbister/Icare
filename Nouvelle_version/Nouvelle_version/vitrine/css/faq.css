@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:500,600,700|Roboto');
+
+
+/* FAQ début */
+h1{
+ 
+  font-size: 35px;
+  
+  font-family:"Roboto";
+  color: #000;
+  padding:1%;
+  width: 95%;
+  
+  font-weight:lighter;
+  -moz-box-shadow: 2px 2px 6px #888;  -webkit-box-shadow: 2px 2px 6px #888;  
+  
+  text-align:center;
+  display:block;
+ 
+}
+h2 {
+	text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: #9370DB ; 
+    padding: 3%;
+    margin : 0;
+    cursor: pointer;
+    position: relative ;
+    -moz-box-shadow: 2px 2px 6px #888;  -webkit-box-shadow: 2px 2px 6px #888;  
+}
+.faq {
+	text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px ;
+    color: black;
+    display: block;
+    padding: 7%;
+    margin :0;
+    background-color:	#C0C0C0;
+    -moz-box-shadow: 2px 2px 6px #888;  -webkit-box-shadow: 2px 2px 6px #888;  
+}
+.container1 {
+   
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 5px 0 10px;
+    width: 100%;
+    margin-bottom: 30%; /* Pour voir tout avec le footer en dessus*/
+    margin-right: 55%;
+    margin-top: 0;
+    p
+
+}
+
+/*FAQ Fin */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body {
+	margin: 0%;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	background: white;
+	font: bold 15% sans-serif;
+
+	
+	
+}
+p.faq{
+	font-size: 25px;
+}
+
+h1{
+	font: normal 30px "Roboto", cursive;
+	z-index: 2;
+	margin: 2%;
+	margin-left: 3%;
+	margin-top: 0%;
+}
+
+
+/*MENU*/
+html, body { /*QUAND ON EST DANS UNE RUBRIQUE*/
+    margin: 0%;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background: white;
+    font: bold 20px sans-serif;
+    
+    
+}
+
+h1{
+    font: normal 30px "Roboto", cursive;
+    margin: 1%;
+}
+    

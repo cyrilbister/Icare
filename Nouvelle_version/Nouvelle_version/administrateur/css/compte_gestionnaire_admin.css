@@ -1,0 +1,97 @@
+html, body { /*QUAND ON EST DANS UNE RUBRIQUE*/
+	margin: 0%;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	background: white;
+	font: bold 1px sans-serif;
+}
+
+label{
+
+	font-size: 20px;
+}
+
+
+body
+{
+	color : black;
+	background-color: white;
+	font-family: "Roboto"; 
+    margin-bottom: 60%;
+	height: 100%;
+}
+
+input {
+    background-color:white ; /*champs à remplir*/
+    color: black;
+    margin: 8px 0;
+	border: none;
+    cursor: text;
+    width: 100%;
+}
+
+input:hover {
+    background-color: white;
+    color: black;
+}
+
+.titre {
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top : 230px;
+    left : 50px;
+}
+
+hr{
+    color : rgb(105,105,15);
+    margin-bottom: 8%;
+	margin-top: 0%;
+	border-top: 8% ;
+    height: 5%;
+}
+
+#un
+{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    color: black;
+}
+            
+#deux
+{
+    position: absolute;
+    top: 300px;
+	left: 370px;
+	color : black;
+}
+    
+.bouton1
+{
+background-color: #483D8B;
+font-size: 20px;
+color : white;
+position : absolute;
+top : 500px;
+left : 370px;
+width: 280px;
+height: 50px;
+font-family: "Roboto";
+}
+
+.bouton2
+{
+background-color: #483D8B;
+font-size: 20px;
+color : white;
+position : absolute;
+top : 600px;
+left : 370px;
+width: 280px;
+height: 50px;
+font-family: "Roboto";
+}
+

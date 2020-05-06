@@ -1,0 +1,15 @@
+html, body { /*QUAND ON EST DANS UNE RUBRIQUE*/
+	margin: 0%;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	background: white;
+	font: normal 25px "Roboto", cursive;
+}
+h1{
+	font-size: 30px;
+	margin: 1%;
+}
+ p{
+	font-size: 25px;
+}

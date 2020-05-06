@@ -1,0 +1,109 @@
+
+html{
+    height : 100%;
+}
+
+
+h1{
+	font: normal 30px "Roboto", cursive;
+	margin: 2%;
+	margin-left: 3%;
+	margin-top: 0%;
+}
+.p{
+	font: normal 15px "Roboto", cursive;
+	margin: 2%;
+	margin-left: 3%;
+	margin-top: 0%;
+}
+
+.titre{
+    font-family : Roboto;
+}
+
+
+.bouton{
+    display : inline-flex;
+    cursor : pointer;
+	opacity : 0.6;
+	background-color : #9370DB;
+	text-decoration : none;
+	border : none;
+	padding : 40px 100px;
+	font-size : 35px;
+    transition-duration: 0.4s;
+}
+
+
+.bouton:hover{
+	box-shadow : 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity : 1}
+    
+.modifier{
+    margin-left : 10%;
+}
+
+
+
+
+.titre{
+    font-family : Roboto;
+    font-weight : bold;
+	font-size: 60px;
+    position : relative;
+    left : 0%;
+    top : 5%;
+    margin-top : 2%;
+    margin-bottom : 5%;
+}
+
+.champs{
+    display : flex;
+    flex-direction : column;
+}
+
+.question_reponse{
+    font-size : 25px;
+    margin-bottom : 5%;
+}
+
+.bouton{
+        display : inline-flex;
+        cursor : pointer;
+        opacity : 0.6;
+        background-color : #9370DB;
+        text-decoration : none;
+        border : none;
+        padding : 10px 20px;
+        font-size : 20px;
+        transition-duration: 0.4s;
+}
+    
+    
+.bouton:hover{
+     box-shadow : 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+     opacity : 1
+}
+
+.bloc_bouton{
+    position : relative;
+    display : flex;
+    justify-content : end;
+    padding-right : 2%;
+}
+
+
+
+html, body {
+	
+    margin: 0%;
+	padding: 0%;
+	height: 100%;
+	width: 100%;
+	background: white;
+	font: bold 15% sans-serif;
+	
+}
+
+
+

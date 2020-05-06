@@ -1,0 +1,79 @@
+html{
+    height : 100%;
+}
+
+
+
+
+
+#carreBlanc{
+    height: 70%;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+    border: 5%;
+}
+
+h1.titre{
+    font: normal 35px "Roboto", cursive;
+    margin: 1%;
+    margin-left: 1%;
+    
+}
+
+
+
+p.instruction{
+    font: normal 60px "Roboto", cursive;
+    margin-top: -4%;
+}
+.msg{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    padding-left : 15%;
+    padding-right : 15%;
+    padding-top : 5%;
+    padding-bottom : 5%;
+    margin-bottom: none;
+    background-color : #696969;
+    bottom : -10;
+    
+}
+
+label.mail{
+    font : normal 40px "Roboto", cursive;
+
+}
+div.container{
+    margin-top:-4%;
+}
+.mail{
+    font-size : 25px;
+
+    border:none;
+}
+
+
+html, body {
+	
+    margin: 0%;
+	padding: 0%;
+	height: 100%;
+	width: 100%;
+	background: white;
+}
+
+input.bouton{
+        font-family: "Roboto";
+        border : none;
+    border-bottom : 2px solid black;
+    font : normal 25px "Roboto", cursive ;
+}
+hr{
+
+}
+

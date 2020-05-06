@@ -1,0 +1,89 @@
+.photo1 img {
+    border-radius: 50%;
+}
+.photo2 img {
+    border-radius: 50%;
+}
+
+.container {
+    
+    width: auto;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #292c2f;
+    padding: 3% 3% 3% 3%;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.photo1 {
+    position: absolute;
+    height : 300px;
+    width: 300px;
+    max-height: 100%;
+    max-width: 40%;
+}
+.photo1 img {
+    max-height: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+.content1 {
+    padding: 1% 1% 1% 20%;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.content1 p {
+    font: 20px sans-serif;
+    color : white;
+}
+
+.content1 h4 {
+    font: bold 30px sans-serif;
+    color : mediumpurple;
+}
+
+.content2 {
+    padding: 1% 20% 1% 1%;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.content2 p {
+    font: 20px sans-serif;
+    color : white;
+}
+
+.content2 h4 {
+    font: bold 30px sans-serif;
+    color : mediumpurple;
+}
+
+.photo2 {
+    position: absolute;
+    margin-left: 75%;
+    height : 300px;
+    width: 300px;
+    max-height: 80%;
+    max-width: 20%;
+
+}
+.photo2 img {
+    max-height: 100%;
+}
+
+.espace {
+    height: 300px;
+}
+
+
+.container:hover {
+  -ms-transform: scale(0.2); /* IE 9 */
+  -webkit-transform: scale(0.2); /* Safari 3-8 */
+  transform: scale(0.2);
+  transition-delay: 0.3s; 
+}

@@ -1,0 +1,128 @@
+*{
+    margin : 0%;
+    padding : 0;
+}
+
+#login{
+    position : fixed;
+    
+}
+
+section{
+
+    color: grey;
+}
+
+html{
+    height : 10%;
+    background-color : white;
+
+}
+
+
+hr{
+
+    margin-bottom:5%;
+    margin-top:-3.5%;
+
+}
+
+#hr1{
+    margin-top:-7.5%;
+}
+
+
+
+#container{
+    float: center;
+    position: absolute;;
+    top: 20%;
+    left: 35%;
+  
+}
+
+.Usertxt{
+    position : relative;
+    color : black;
+    font-size : 20px;
+    font-family : "Roboto";
+
+}
+
+.Username{
+    height : 100px;
+}
+
+.Passtxt{
+    position : relative;
+    color : black;
+    font-size : 20px;
+    font-family : "Roboto";
+    text-align: 
+}
+
+.Password{
+    height : 100px;
+    border-radius : 10px;
+}
+
+.username{
+    height : 50px;
+    width : 500px;
+    font-family : "Roboto";
+    font-size : 100%;
+    border : 1px;
+    border-radius : 10px;
+}
+
+
+.password{
+    height : 50px;
+    width : 500px;
+    font-family : "Roboto";
+    font-size : 100%;
+    border : 1px;
+    border-radius : 10px;
+    text-align: 10%
+}
+
+
+input[type=submit] {
+    background-color:#9370DB ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+
+.oubli:hover{
+    background-color : grey;
+    color : white;
+}
+
+
+.Oubli{
+    height : 25px;
+    margin-right : 100px;
+}
+
+
+.oubli{
+    font-size : 15px;
+    font-family : "Roboto";
+    color : black;
+    position : static;
+    float : right;
+    
+    text-decoration : none;
+}
+
+
