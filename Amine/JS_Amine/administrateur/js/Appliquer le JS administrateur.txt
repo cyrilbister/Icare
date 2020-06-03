@@ -1,0 +1,17 @@
+Certaines lignes supplémenntaires doivent être ajoutées au code HTML afin d'appeler toutes
+les fonctions JS:
+
+ajout__q_a.html : 
+	<button class="bouton" id="ajouter" onclick="verif_champs()">Ajouter</button>
+
+nouveau_gestionnaire.html : 
+	 <input type="submit" value="Confirmer l'adresse mail pour l'envoi de la clé d'inscription" class="bouton" id="envoyer" onclick="verif_champs_mail()"/>
+
+parametres_site.html : 
+	<input type="file" id="file" name="logo" accept="image/*" class="parcourir" onchange="showPreview(event);">
+		ET
+	<button class="bouton" id="bouton_envoyer_logo" onclick="verif_champs_logo()">Envoyer</button>
+		ET
+	<button class="bouton" onclick="verif_champs_site()">Envoyer</button>
+		ET
+	<button class="bouton" onclick="verif_champs_adresse()">Envoyer</button>

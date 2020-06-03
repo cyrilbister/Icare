@@ -1,0 +1,5 @@
+Certaines lignes supplémenntaires doivent être ajoutées au code HTML afin d'appeler toutes
+les fonctions JS:
+
+nouvel_utilisateur.html : 
+	<input type="submit" value="Confirmer l'adresse mail pour l'envoi de la clé d'inscription" class="bouton" onclick="verif_champs_mail()"/>
