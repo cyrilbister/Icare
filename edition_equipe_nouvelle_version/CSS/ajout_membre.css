@@ -1,0 +1,167 @@
+html{
+    height : 100%;
+}
+
+label {
+    display: block;
+    font: normal 20px "Roboto", cursive;
+    margin-left: 2%;
+    margin-top: 1%;
+    color: grey;
+}
+
+#avatar{
+    font: normal 15px "Roboto", cursive;
+    margin-left: 2%;
+    margin-top: 1%;
+    color: grey;
+}
+
+
+
+h1{
+	font: normal 30px "Roboto", cursive;
+	margin: 2%;
+	margin-left: 3%;
+	margin-top: 0%;
+}
+.p{
+	font: normal 15px "Roboto", cursive;
+	margin: 2%;
+	margin-left: 3%;
+	margin-top: 0%;
+}
+
+.titre{
+    font-family : "Roboto";
+}
+
+.bloc1{
+    width : 100%;
+    position : relative;
+    display : flex;
+    align-items : center;
+    padding-right : 17%;
+    height : 45%;
+    background-color : white;
+}
+
+.ajouter{
+    padding-right : 250px;
+
+}
+
+.question_logo{
+    height : 52.5%;
+    width : 15%;
+    padding-right : 32%;
+    padding-left : 17%;
+}
+
+
+.bloc2{
+    width : 100%;
+    display : flex;
+    align-items : center;
+    position : relative;
+    padding-left : 15%;
+    height : 45%;
+    background-color : #F5F5F5;
+}
+
+.faq_logo{
+    height : 52.5%;
+    width : 15%;
+    padding-left : 27%;
+}
+
+
+
+
+.bouton:hover{
+	box-shadow : 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity : 1}
+    
+
+
+
+.titre{
+    font : 25px  normal, "Roboto" cursive;
+   
+	font-size: 30px;
+    position : relative;
+    left : 0%;
+    top : -1%;
+    margin-top : 0%;
+    margin-bottom : 5%;
+}
+
+.champs{
+    display : flex;
+    flex-direction : column;
+    width: 50%;
+
+}
+
+.nouveau_membre{
+    font-size : 20px;
+    margin-bottom : 5%;
+    margin-left : 5%;
+    border:none;
+}
+
+/*Relatif au bouton*/
+.bouton{
+	background-color: #483D8B;
+	font-size: 25px;
+
+	color : white;
+	position : relative;
+	display : inline-flex;
+	font-family: "Roboto";
+	padding : 10px 20px;
+	text-decoration: none;
+	border:none;
+
+}
+    
+
+.bouton:hover{
+     box-shadow : 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+     opacity : 1;
+}
+
+.bloc_bouton{
+    position : absolute;
+    display : flex;
+    justify-content : end;
+    padding-right : 2%;
+    margin-left: 30%;
+    margin-bottom: 2%
+}
+
+hr{
+    color : rgb(105,105,15);
+    margin-left: 5%;
+    margin-bottom:5%;
+    margin-top:-3.5%;
+    width: 50%;
+}
+#hr2{
+	color : rgb(105,105,15);
+    margin-left: 2.5%;
+    
+    margin-top:-3.5%;
+    width: 20%;
+}
+
+
+.test{
+    position: absolute;
+    top: 1000px;
+    left: 50px;
+}
+
+
+
+
