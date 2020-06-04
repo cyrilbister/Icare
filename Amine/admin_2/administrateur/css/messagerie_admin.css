@@ -1,0 +1,127 @@
+html{
+    height : 100%;
+}
+
+
+.titre{
+    font-family : Roboto;
+    font-weight : bold;
+	font-size: 30px;
+    position : relative;
+	margin-bottom : 5%;
+	margin-left : 1%;
+}
+
+.champs{
+    display : flex;
+    flex-direction : column;
+}
+
+.question_reponse{
+    font-size : 25px;
+    margin-bottom : 5%;
+}
+
+.bouton{
+        display : inline-flex;
+        cursor : pointer;
+        opacity : 0.6;
+        background-color : #9370DB;
+        text-decoration : none;
+        border : none;
+        padding : 10px 20px;
+        font-size : 20px;
+        transition-duration: 0.4s;
+}
+    
+    
+.bouton:hover{
+     box-shadow : 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+     opacity : 1
+}
+
+.bloc_bouton{
+    position : relative;
+    display : flex;
+    justify-content : end;
+    padding-right : 2%;
+}
+
+
+
+html, body {
+	
+    margin: 0%;
+	padding: 0%;
+	height: 100%;
+	width: 100%;
+	background: white;
+	font: bold 15% sans-serif;
+	
+}
+
+
+body{
+    font-family : Roboto;
+}
+
+
+
+
+nav.page-accueil-gestionnaire ul{
+	
+	
+	cursor:auto;
+	mix-blend-mode: multiply;
+	
+  	font-size: 20px;
+  	margin-left: 0%;
+  	margin-right: 9%;
+  	margin-bottom: -13%;
+    color : #333;
+    padding: 0;
+    margin-top: -1%;
+    
+	position: relative;
+	
+	overflow: hidden;
+	z-index:2;
+	list-style-type: none;
+
+	
+
+}
+
+
+nav.page-accueil-gestionnaire ul li  {
+	
+	height: 200px;
+	float: left;
+	margin: 2.5%;
+	margin-right: -2.5%;
+	display: inline-block;
+}
+
+nav.page-accueil-gestionnaire ul li.rubriques a  {
+	
+	color : white;
+	text-decoration: none;
+	background-color: grey;
+	padding: 10px;
+	text-align: center;
+	display: block;
+	font-family: "Roboto";
+}
+
+nav.page-accueil-gestionnaire ul li.rubriques:hover a{
+	color : grey;
+	background-color: #483D8B;
+	transition: 0.5s;
+} 
+
+
+
+
+#body {max-width:800px;margin:auto}
+#log {width:100%;height:400px}
+#message {width:100%;line-height:20px}
