@@ -1,0 +1,177 @@
+html{
+    height : 100%;
+}
+/*p{
+	font: normal 15px "Roboto", cursive;
+	margin: 2%;
+	margin-left: 3%;
+	margin-top: 0%;
+}
+*/
+
+.titre{
+    font-family : Roboto;
+    font-weight : bold;
+	font-size: 30px;
+    position : relative;
+    margin-left : 1%;
+    margin-bottom : 5%;
+}
+
+.lorem>p{
+	font: normal 25px "Roboto", cursive;
+	margin: 2%;
+	margin-left: 3%;
+	margin-top: 0%;
+}
+
+.lorem2>p{
+	font: normal 25px "Roboto", cursive;
+	margin: 2%;
+	margin-left: 3%;
+	margin-top: 0%;
+}
+
+.woman{
+    height : 100%;
+    width : 100%;
+    margin-right : 10%;
+}
+
+.woman:hover{
+	transition-duration : 500ms;
+	height : 150%;
+	width : 150%;
+	margin-right : 10%;
+}
+
+
+.lorem{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    padding-left : 10%;
+    padding-right : 20%;
+    padding-bottom : 5%;
+    padding-top : 5%;
+    text-align : justify;
+    background-color : white;
+}
+
+
+.lorem>p:hover{
+	transition-duration : 500ms;
+	font-size : 35px;
+}
+
+
+
+.lorem2{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    padding-left : 20%;
+    padding-right : 10%;
+    padding-bottom : 5%;
+    padding-top : 5%;
+    text-align : justify;
+    background-color : #F5F5F5;
+}
+
+.lorem2>p:hover{
+	transition-duration : 500ms;
+	font-size : 35px;
+}
+
+
+.man{
+    height: 100%;
+    width : 100%;
+    margin-left : 10%;
+}
+
+.man:hover{
+	transition-duration : 500ms;
+	height : 150%;
+	width : 150%;
+	margin-right : 10%;
+}
+
+.msg{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    padding-left : 15%;
+    padding-right : 15%;
+    padding-top : 5%;
+    padding-bottom : 5%;
+    margin-bottom: none;
+    background-color : #696969;
+    bottom : -10;
+}
+
+.msg>p{
+    font-weight : bold;
+    font-family : Roboto;
+    font-size : 40px;
+    color : white;
+}
+
+body{
+    font-family : Roboto;
+}
+
+
+
+
+nav.page-accueil-gestionnaire ul{
+	
+	
+	cursor:auto;
+	mix-blend-mode: multiply;
+	
+  	font-size: 20px;
+  	margin-left: 0%;
+  	margin-right: 9%;
+  	margin-bottom: -13%;
+    color : #333;
+    padding: 0;
+    margin-top: -1%;
+    
+	position: relative;
+	
+	overflow: hidden;
+	z-index:2;
+	list-style-type: none;
+
+	
+
+}
+
+
+nav.page-accueil-gestionnaire ul li  {
+	
+	height: 200px;
+	float: left;
+	margin: 2.5%;
+	margin-right: -2.5%;
+	display: inline-block;
+}
+
+nav.page-accueil-gestionnaire ul li.rubriques a  {
+	
+	color : white;
+	text-decoration: none;
+	background-color: grey;
+	padding: 10px;
+	text-align: center;
+	display: block;
+	font-family: "Roboto";
+}
+
+nav.page-accueil-gestionnaire ul li.rubriques:hover a{
+	color : grey;
+	background-color: #483D8B;
+	transition: 0.5s;
+} 
+
