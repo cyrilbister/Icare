@@ -1,0 +1,100 @@
+html{
+    height : 100%;
+}
+
+body{
+	overflow-x : hidden;
+}
+
+.titre{
+	font-family : Roboto;
+	font-size : 60px;
+	font-weight : bold ;
+	margin-left : 1%;
+}
+
+.bloc1{
+    width : 100%;
+    position : relative;
+    display : flex;
+    align-items : center;
+    padding-right : 17%;
+    height : 45%;
+    background-color : white;
+}
+
+.ajouter{
+    padding-right : 250px;
+}
+
+.question_logo{
+    height : 52.5%;
+    width : 15%;
+    padding-right : 32%;
+    padding-left : 17%;
+}
+
+.question_logo:hover{
+	transition-duration : 500ms;
+	height : 75%;
+	width : 22%;
+	margin-bottom : 5%;
+}
+
+
+.bloc2{
+	position : relative;
+    width : 100%;
+    display : flex;
+    align-items : center;
+    position : relative;
+    padding-left : 15%;
+    height : 45%;
+	background-color : #F5F5F5;
+	margin : -4%;
+}
+
+.faq_logo{
+    height : 52.5%;
+    width : 15%;
+	padding-left : 27%;
+}
+
+.faq_logo:hover{
+	transition-duration : 500ms;
+	height : 75%;
+	width : 22%;
+}
+
+
+.bouton{
+    display : inline-flex;
+    cursor : pointer;
+	opacity : 0.6;
+	background-color : #483D8B ;
+	text-decoration : none;
+	border : none;
+	padding : 10px 20px;
+	font-size : 35px;
+    transition-duration: 0.4s;
+}
+
+
+.bouton:hover{
+	box-shadow : 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity : 1}
+    
+.modifier{
+    margin-left : 10%;
+}
+
+#carreBlanc{
+    height: 70%;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+    border: 5%;
+}
